@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 namespace H1_Planets.Model
 {
     /// <summary>
-    /// Class that 
+    /// Class which contains properties for the planets.
+    /// This class is used for our list, to contain the planets.
     /// </summary>
     internal class Planet
     {

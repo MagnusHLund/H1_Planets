@@ -16,7 +16,6 @@ namespace H1_Planets.View
         /// <param name="planet"></param>
         public void OutputPlanetInfo(Planet planet)
         {
-            // Task 3, 5, 6
             Console.WriteLine($"Name: {planet.Name}\n" +
                 $"Mass: {planet.Mass} (1024kg)\n" +
                 $"Density: {planet.Density} kg/m3\n" +
@@ -32,6 +31,10 @@ namespace H1_Planets.View
                 $"Has rings? {planet.HasRings}\n\n");
         }
 
+        /// <summary>
+        /// This is used to say which tasks was just displayed in the console
+        /// </summary>
+        /// <param name="message"></param>
         public void Message(string message)
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -40,6 +43,10 @@ namespace H1_Planets.View
             Console.ResetColor();
         }
 
+        /// <summary>
+        /// Count() outputs the value of lines, in the list.
+        /// </summary>
+        /// <param name="count"></param>
         public void Count(int count)
         {
             Console.WriteLine(count);
